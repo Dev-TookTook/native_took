@@ -26,7 +26,8 @@
     },
     "expo": {
       "web": {
-        "bundler": "metro"
+        "bundler": "metro",
+        "scheme": "native_took"
       }
     }
   }
