@@ -3,8 +3,8 @@ import { View, Text, Button, ScrollView } from "react-native";
 
 export default function All() {
     return (
-        <View className="flex-1 bg-gray-100 px-4 pb-12 mt-8">
-            <ScrollView className='mt-5 py-10'>
+        <View className="flex-1 bg-gray-100 px-4">
+            <ScrollView className='py-10'>
                 <Text className='text-3xl font-bold'>문경민</Text>
                 <View className='bg-slate-200 w-full h-48 mt-6 rounded-2xl'>
                 </View>
@@ -74,7 +74,7 @@ export default function All() {
                         <Text className='text-xl font-semibold tracking-tighter ml-4'>여행코스 개선하기</Text>
                     </View>
                 </View>
-                <View className="mt-12 px-6">
+                <View className="mt-12 px-6 pb-5">
                     <View className='mb-8'>
                         <Text className="text-gray-500 mb-6">제휴문의</Text>
                         <View className="flex flex-wrap flex-row justify-between">

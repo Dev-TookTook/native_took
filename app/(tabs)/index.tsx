@@ -6,14 +6,14 @@ export default function Root() {
     const isRunning = true;
     return (
         <>
-            <ScrollView className="flex-1 bg-gray-100 px-4 mt-8">
-                <View className='mt-5 flex flex-row justify-between items-center py-10'>
+            <ScrollView className="flex-1 bg-gray-100 px-4 ">
+                <View className='flex flex-row justify-between items-center py-10'>
                     <View>
                         {/* 여기에 스픽 불꽃 날짜 달력 추가 참조 ㅇㅇ 그리고 만약에 불꽃이 이어지면 날짜 옆에 불꽃 이모지 생성 */}
                         <Text className='text-3xl font-bold'>Today,<Text className='text-slate-500'> 12월 14일</Text></Text>
                     </View>
                     {/* 이것도 프로필로 연결이 아니라 스위치 버튼으로 하자 ㅇㅇ */}
-                    <TouchableOpacity onPress={() => console.log('프로필로 이동')}>
+                    <TouchableOpacity onPress={() => router.push("/auth")}>
                         <View className='size-12'>
                             <Image className='w-full h-full rounded-full border border-gray-300' src='https://avatars.githubusercontent.com/u/80581099?v=4' /></View>
                     </TouchableOpacity>
